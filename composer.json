@@ -1,0 +1,39 @@
+{
+  "name": "hpolthof/laravel-backblaze",
+  "type": "library",
+  "description": "Backblaze B2 Cloud Storage for Laravel 5",
+  "keywords": [
+    "laravel",
+    "B2",
+    "flysystem",
+    "filesystem",
+    "backblaze",
+    "disks"
+  ],
+  "homepage": "https://github.com/hpolthof/laravel-backblaze",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Olthof",
+      "email": "hpolthof@gmail.com",
+      "homepage": "https://github.com/hpolthof",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "mhetreramesh/flysystem-backblaze": "~1.0",
+    "laravel/laravel": "~5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hpolthof\\Backblaze\\": "src"
+    }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}
