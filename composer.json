@@ -22,8 +22,8 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "mhetreramesh/flysystem-backblaze": "~1.0",
-    "laravel/laravel": "~5.*"
+    "mhetreramesh/flysystem-backblaze": "*",
+    "laravel/laravel": "5.*"
   },
   "autoload": {
     "psr-4": {
