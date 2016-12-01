@@ -1,8 +1,6 @@
 # Backblaze B2 Cloud Storage for Laravel 5
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/hpolthof/laravel-backblaze.svg?style=flat-square)](https://packagist.org/packages/hpolthof/laravel-backblaze)
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/hpolthof/laravel-backblaze/master.svg?style=flat-square)](https://travis-ci.org/hpolthof/laravel-backblaze)
 [![Total Downloads](https://img.shields.io/packagist/dt/hpolthof/laravel-backblaze.svg?style=flat-square)](https://packagist.org/packages/hpolthof/laravel-backblaze)
 
 Backblaze B2 is a great cloud storage system that compares to Amazon S3, but uses lower pricing, so worth the try. ;-)
