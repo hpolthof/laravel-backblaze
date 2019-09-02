@@ -24,7 +24,7 @@
   "require": {
     "php": ">=7.0",
     "laravel/framework": "~5.1",
-    "mhetreramesh/flysystem-backblaze": "~1.5"
+    "mhetreramesh/flysystem-backblaze": "~1"
   },
 
   "require-dev": {

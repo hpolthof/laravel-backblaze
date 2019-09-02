@@ -6,6 +6,7 @@ use Hpolthof\Backblaze\Tests\TestCase;
 use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Str;
 
 class BackblazeServiceProviderTest extends TestCase
 {
@@ -19,7 +20,7 @@ class BackblazeServiceProviderTest extends TestCase
         $this->serviceProvider = new BackblazeServiceProvider(app());
         $this->serviceProvider->boot();
 
-        $this->file = uniqid('test-');
+        $this->file = Str::random().'.test';
     }
 
     /** @test */
