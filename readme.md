@@ -13,6 +13,10 @@ Via Composer
 composer require hpolthof/laravel-backblaze
 ```
 
+### Auto-discovery
+By default auto-discovery is disabled. If you want the add this package manually or
+if you are using Laravel < 5.5, then you should add the ServiceProvider manually.
+
 In your app.php config file add to the list of service providers:
 ```
 \Hpolthof\Backblaze\BackblazeServiceProvider::class,
@@ -22,13 +26,19 @@ Add the following to your filesystems.php config file in the ```disks``` section
 ```
 'b2' => [
     'driver'         => 'b2',
-    'accountId'      => '',
-    'applicationKey' => '',
-    'bucketName'     => '',
+    'accountId'      => env('B2_ACCOUNT_ID'),
+    'applicationKey' => env('B2_APP_KEY'),
+    'bucketName'     => env('B2_BUCKET'),
 ],
 ```
 
-Now just paste in your credentials and bucketname and you're ready to go!
+Now just add your credentials and bucketname into your `.env` file and you're ready to go!
+
+```
+B2_ACCOUNT_ID=
+B2_APP_KEY=
+B2_BUCKET=
+```
 
 ## Usage
 Just use it as you normally would use the Storage facade.
