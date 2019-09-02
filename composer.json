@@ -31,8 +31,10 @@
   },
   "minimum-stability": "stable",
   "extra": {
-    "branch-alias": {
-      "dev-master": "0.1.x-dev"
+    "laravel": {
+      "providers": [
+        "Hpolthof\\Backblaze\\BackblazeServiceProvider"
+      ]
     }
   }
 }
