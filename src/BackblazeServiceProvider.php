@@ -1,6 +1,6 @@
 <?php namespace Hpolthof\Backblaze;
 
-use ChrisWhite\B2\Client;
+use BackblazeB2\Client;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\Filesystem;
